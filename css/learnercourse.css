@@ -1,0 +1,699 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}
+.container
+{background-color:#fef3e2;
+    
+}
+.header
+{
+    height:60px;
+    width:100%;
+    background-color:#bec6a0;
+    color: white;
+    font-weight: bold;
+    padding-top:15px;
+}
+.subcontainer
+{
+    
+    height:3000px;
+    display: flex;
+    background-color:#fef3e2;
+
+
+}
+#ac
+{
+    text-decoration: none;
+    color: white;
+}
+.part_1
+{
+   
+     display: flex;
+     height:100%;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid;
+    width:30%;
+}
+.part_1 img{
+    height:200px;
+    width:200px;
+    border-radius: 80px;
+}
+.list{
+    margin-top: 0px;
+    padding-left: 50px;
+    
+
+}
+.list   ul
+{
+ display: flex;
+ flex-direction: column;
+ list-style: none;   
+}
+.list   .list-item
+{
+    margin:10px;
+    padding-top:-15px;
+
+    height:60px;
+    width: 90%;
+}
+.list .list-item  a
+{
+text-decoration: none;
+color: black;
+display: flex;
+padding-top:30px;
+}
+.list-item  a:hover
+{
+      
+    background-color: rgba(7, 44, 7, 0.932);
+    color: white;
+    width:100%;
+    transition:1s;
+    border-radius:2px;
+
+}
+
+.list   .list-item  i
+{
+font-size: 15px;
+margin-right: 10px;
+margin-top: -10px;
+}
+.list-item
+{
+    display: flex;
+}
+.list   .list-item p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-20px ;
+}
+.div
+{
+    text-align: center;
+    width:100%;
+    height:50px;
+    font-size:50px;
+}
+.card
+{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 15px;
+
+}
+#card
+{
+    height:600px;
+    margin-top:50px;
+}
+.card img
+{
+    height: 150px;
+}
+.p
+{
+    display: flex;
+}
+del
+{
+    margin-top:7px;
+    margin-left:5px;
+}
+.p p i{
+    margin-left:8px;
+    color: #b5c18e;
+}
+.part_2
+{
+    height:1600px;
+    width:100% ;
+}
+
+.part_2 h2
+{
+font-size:15px;
+color:#616b3e;
+}
+.card   h2
+{
+    font-size:15px;
+    font-weight: bold;
+}
+.content
+{
+    font-size:12px;
+}
+.content1
+{
+    font-weight: bold;
+}
+.content2
+{
+    font-size:12px;
+
+}
+.content3
+{
+    font-size:12px;
+    color: #919b73;
+}
+#watch
+{
+width:100px;
+font-size:13px;
+background-color:#585e45;
+color:white;
+}
+#course
+{
+width:100px;
+font-size:13px;
+}
+.part_1
+{
+    height:1600px;
+}
+.part_2
+{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    padding-top:20px;
+}
+
+
+@media  (max-width:1024px)
+{
+    
+    .part_1
+    {
+    width:40%;
+    height: 100%;
+    }
+    .part_1 img
+    {
+      height:200px;
+      width:200px;  
+    }
+    .list
+    {
+        padding-left:0px;
+    }
+    .list   .list-item p
+    {
+        font-size:18px;
+    }
+    .list   .list-item i
+    {
+        font-size:20px;
+        margin-top:-17px;
+
+    }
+    .list a
+    {
+        height:40px;
+        width:100%;
+        margin-left:-15px ;
+    }
+    .part_2
+    {
+    width:60%;
+    margin-top:40px;
+    }
+    #a
+    {
+        width:105% ;
+    }
+
+    .card
+    {
+    width:270px;
+    height: auto;
+    }
+    #card
+    {
+        height:800px;
+    }
+    
+    .card h2
+    {
+        font-size:17px;
+    }
+    .p p
+    {
+        font-size:16px;
+    }
+    .content
+    {
+        font-size:16px ;
+    }
+    .content1
+    {
+        font-size:16px;
+    }
+    .content2
+    {
+        font-size:16px;
+    }
+    .content3
+    {
+        font-size:16px;
+
+    }
+    #watch
+    {
+        font-size:16px;
+    }
+    #course
+    {
+        font-size:14px;
+        width:150px;
+    }
+    .subcontainer
+    {
+    height:3500px;
+    }
+    .div
+    {
+        font-size: 40px;
+    }
+
+}
+@media  (max-width:990px)
+{
+    
+    .part_1
+    {
+    width:40%;
+    height: 100%;
+    }
+    .part_1 img
+    {
+      height:160px;
+      width:160px;  
+    }
+    .list
+    {
+        padding-left:0px;
+    }
+    .list   .list-item p
+    {
+        font-size:15px;
+    }
+    .list   .list-item i
+    {
+        font-size:17px;
+        margin-top:-17px;
+
+    }
+    .list a
+    {
+        height:40px;
+        width:100%;
+        margin-left:-15px ;
+    }
+    .part_2
+    {
+    width:60%;
+    margin-top:40px;
+    }
+    #a
+    {
+        width:105% ;
+    }
+
+    .card
+    {
+    width:250px;
+    height: auto;
+    }
+    
+    .card h2
+    {
+        font-size:15px;
+    }
+    .p p
+    {
+        font-size:14px;
+    }
+    .content
+    {
+        font-size:14px ;
+    }
+    .content1
+    {
+        font-size:14px;
+    }
+    .content2
+    {
+        font-size:14px;
+    }
+    .content3
+    {
+        font-size:14px;
+
+    }
+    #watch
+    {
+        font-size:14px;
+    }
+    #course
+    {
+        font-size:12px;
+        width:150px;
+        margin-top:-10px;
+    }
+    .subcontainer
+    {
+    height:5400px;
+    }
+    .div
+    {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+@media  (max-width:850px)
+{
+    
+    .part_1
+    {
+    width:40%;
+    height: 100%;
+    }
+    .part_1 img
+    {
+      height:160px;
+      width:160px;  
+    }
+    .list
+    {
+        padding-left:0px;
+    }
+    .list   .list-item p
+    {
+        font-size:15px;
+    }
+    .list   .list-item i
+    {
+        font-size:17px;
+        margin-top:-17px;
+
+    }
+    .list a
+    {
+        height:40px;
+        width:100%;
+        margin-left:-15px ;
+    }
+    .part_2
+    {
+    width:60%;
+    margin-top:40px;
+    }
+    #a
+    {
+        width:105% ;
+    }
+
+    .card
+    {
+    width:250px;
+    height: auto;
+    }
+    
+    .card h2
+    {
+        font-size:15px;
+    }
+    .p p
+    {
+        font-size:14px;
+    }
+    .content
+    {
+        font-size:14px ;
+    }
+    .content1
+    {
+        font-size:14px;
+    }
+    .content2
+    {
+        font-size:14px;
+    }
+    .content3
+    {
+        font-size:14px;
+
+    }
+    #watch
+    {
+        font-size:14px;
+    }
+    #course
+    {
+        font-size:12px;
+        width:150px;
+        margin-top:-10px;
+    }
+    .subcontainer
+    {
+    height:5400px;
+    }
+    .div
+    {
+        font-size: 40px;
+    }
+
+}
+
+@media  (max-width:768px)
+{
+    
+    .part_1
+    {
+    width:40%;
+    height: 100%;
+    }
+    .part_1 img
+    {
+      height:160px;
+      width:160px;  
+    }
+    .list
+    {
+        padding-left:0px;
+    }
+    .list   .list-item p
+    {
+        font-size:15px;
+    }
+    .list   .list-item i
+    {
+        font-size:17px;
+        margin-top:-17px;
+
+    }
+    .list a
+    {
+        height:40px;
+        width:100%;
+        margin-left:-15px ;
+    }
+    .part_2
+    {
+    width:60%;
+    margin-top:40px;
+    }
+    #a
+    {
+        width:105% ;
+    }
+
+    .card
+    {
+    width:250px;
+    height: auto;
+    }
+    
+    .card h2
+    {
+        font-size:15px;
+    }
+    .p p
+    {
+        font-size:14px;
+    }
+    .content
+    {
+        font-size:14px ;
+    }
+    .content1
+    {
+        font-size:14px;
+    }
+    .content2
+    {
+        font-size:14px;
+    }
+    .content3
+    {
+        font-size:14px;
+
+    }
+    #watch
+    {
+        font-size:14px;
+    }
+    #course
+    {
+        font-size:12px;
+        width:150px;
+        margin-top:-10px;
+    }
+    .subcontainer
+    {
+    height:5400px;
+    }
+    .div
+    {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:480px)
+{
+.part_1
+    {
+    width:40%;
+    height: 100%;
+    }
+    .part_1 img
+    {
+      height:80px;
+      width:80px;  
+    }
+    .list
+    {
+        padding-left:0px;
+    }
+    .list   .list-item p
+    {
+        font-size:10px;
+    }
+    .list   .list-item i
+    {
+        font-size:12px;
+        margin-top:-17px;
+
+    }
+    .list a
+    {
+        height:40px;
+        width:100%;
+        margin-left:-15px ;
+    }
+    .part_2
+    {
+    width:60%;
+    margin-top:40px;
+    }
+    #a
+    {
+        width:105% ;
+    }
+
+    .card
+    {
+    width:200px;
+    }
+    
+    .card h2
+    {
+        font-size:12px;
+    }
+    .p p
+    {
+        font-size:8px;
+    }
+    .content
+    {
+        font-size:10px ;
+    }
+    .content1
+    {
+        font-size:10px;
+    }
+    .content2
+    {
+        font-size:10px;
+    }
+    .content3
+    {
+        font-size:10px;
+
+    }
+    #watch
+    {
+        font-size:10px;
+        width:70px;
+    }
+    #course
+    {
+        font-size:10px;
+        width:75px;
+    }
+    .subcontainer
+    {
+    height:5400px;
+    }
+    .div{
+        font-size: 20px;
+    }
+
+
+
+}
+
